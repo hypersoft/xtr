@@ -1,4 +1,9 @@
-/* #!/compile/me cc xtr.c -o xtr */
+/* COMPILE ME */
+
+/* gcc optimized: gcc -march=native -mtune=generic xtr.c -o xtr */
+/* cc plain: cc xtr.c -o xtr */
+
+/* ALL EXTERNAL CODE POINTS */
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -41,7 +46,7 @@ use --help option to get online help
 
 Affix Operations Cheat Sheet:
 
-a/LIST/          - clear affixes for for LIST
+a/LIST/       - clear affixes for for LIST
 a/LIST/p[/]   - set p and s to p for LIST
 a/LIST/p//    - set p, ignore s for LIST
 a/LIST//s[/]  - ignore p, set s for LIST
